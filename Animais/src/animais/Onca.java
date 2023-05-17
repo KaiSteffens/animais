@@ -26,8 +26,8 @@ public class Onca extends Silvestre{
     }
 
     @Override
-    public String toString() {
-        return "Onca{" + "tipo=" + tipo + '}';
+    public String mostrarDetalhes() {
+       return "" + super.mostrarDetalhes()+ ", tipo=" + tipo + '.';
     }
 
     

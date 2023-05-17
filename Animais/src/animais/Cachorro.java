@@ -26,8 +26,8 @@ public class Cachorro extends Domesticos{
     }
 
     @Override
-    public String toString() {
-        return "Cachorro{" + "tipo=" + tipo + '}';
+    public String exibirDetalhes() {
+        return "" + super.exibirDetalhes()+ ", tipo=" + tipo + '.';
     }
   
 

@@ -28,8 +28,8 @@ public class Tigre extends Silvestre{
 
 
     @Override
-    public String toString() {
-        return "Tigre{" + "tipo=" + tipo + '}';
+    public String mostrarDetalhes() {
+        return "" + super.mostrarDetalhes()+ ", tipo=" + tipo + '.';
     }
 
  
